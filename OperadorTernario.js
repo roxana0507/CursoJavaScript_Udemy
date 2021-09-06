@@ -19,6 +19,7 @@ else {
 }
 
 //TERNARIO
+// Estructura: creamos una variable por ejemplo resul, luego el operador de asignacion, luego entre parentesis se colca la funcion, luego ? y entre comillas se pregunta si es par, dos puntos, luego el otro mensaje.
 let numero = 10;
 resul = (numero %2 == 0) ? "Numero par" : "Numero impar";
 console.log(resul);
