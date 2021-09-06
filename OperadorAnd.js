@@ -1,4 +1,5 @@
 // sirve para agregar o validar dos condiciones
+// ADN = && regresa true solo si ambos operandos son true
 let a = 5;
 let valMin = 0, valMax = 10;
 
