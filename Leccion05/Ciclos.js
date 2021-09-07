@@ -17,3 +17,14 @@ do{
 }
 while( contador1 < 3);
 console.log("Fin del ciclo do while");
+
+//FOR
+//Inicializacion de variables
+//Revision de la condicion
+// Ejecucion
+//incremento/decremento
+
+for(let contador2 = 0; contador2 <3 ; contador2++){
+    console.log(contador2);
+}
+console.log("Fin de ciclo for");
