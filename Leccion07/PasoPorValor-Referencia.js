@@ -7,4 +7,18 @@ function cambiarValor(a) {
 }
 cambiarValor(x);
 console.log(x);
-console.log(a);
+
+//PASO POR REFERENCIA
+// Primero creamos un objeto de tipo constante
+const persona = {
+    nombre: "Juan",
+    apellido: "Perez"
+}
+function cambiarValorObjeto(p1) {
+    p1.nombre = "Carlos";
+    p1.apellido = "Lara";
+}
+
+//Paso por referencia
+cambiarValorObjeto(persona);
+console.log(persona);
