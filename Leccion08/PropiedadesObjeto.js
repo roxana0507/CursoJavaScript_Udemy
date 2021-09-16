@@ -17,4 +17,8 @@ persona["apellido"];
 //Para imprimirlo:
 console.log(persona["apellido"]);
 
-//Recorrer todas las propiedades del objeto se usa FOR IN 
+//Recorrer todas las propiedades del objeto se usa un CICLO FOR IN
+for( nombrePropiedad in persona){
+    console.log(nombrePropiedad);// con esta linea accedemos a la lista de las propiedades o atributos del objeto persona
+    console.log(persona[nombrePropiedad]);// con esta linea accedemos a los valores de cada uno de los atributos del objeto persona
+}
