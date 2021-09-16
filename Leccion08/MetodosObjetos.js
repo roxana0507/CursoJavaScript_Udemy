@@ -17,3 +17,11 @@ console.log(persona.nombre);
 console.log(persona.edad);
 console.log(persona.apellido);
 console.log(persona.nombreCompleto()); //siempre poner los parentesis para llamar la funcion.
+
+//CREAR OBJETO USANDO EL METODO NEW= reservar un nuevo espacio de memoria.
+let persona2 = new Object();
+persona2.nombre = "Carlos";
+persona2.direccion = "Saturno15";
+persona2.telefono = "23456789";
+
+console.log(persona2.direccion);
