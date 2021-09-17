@@ -1,3 +1,6 @@
+//EL HOISTING EN LAS CLASES NO EXISTE, EN ESTE CASO SE DEBE DEFINIR PRIMERO LA CLASE PARA DESPUES CREAR LOS OBJETOS. En las fucniones si se puede definir previamente. En la linea 2 aun no existe la clase persona.
+let persona2 = new Persona('Karla', 'Sanchez')
+
 // es comun usar _ para el nombre de las propiedades de la clase
 class Persona {
     constructor( nombre, apellido){
