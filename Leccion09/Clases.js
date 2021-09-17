@@ -15,4 +15,4 @@ let persona2 = new Persona('Carlos', 'Castro');
 //INSTANCIA DE CLASE U OBJETO: se crea al usar la plantilla para crear un nuevo objeto. Con lo que esta entre parentesis se manda a llamar al constructor, se le pasan los parametros para que este pueda crear el nuevo objeto.
 
 console.log(persona1);
-console.log(persona2);
+console.log();
