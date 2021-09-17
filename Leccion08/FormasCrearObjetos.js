@@ -1,4 +1,4 @@
-let miObjeto = new Objeto();
+let miObjeto = new Object();
 let miObjeto2 = {}; //esta es la forma mas recomendada
 
 let miCadena1 = new String('Hola');
